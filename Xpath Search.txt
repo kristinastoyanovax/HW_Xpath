@@ -1,0 +1,8 @@
+1. //*[@id="navbarColor01"]/form - search form
+2. //*[@id="search-bar"] - search input
+3. //*[@id="navbarColor01"]/form/i - search icon
+4. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div -  search dropdown container
+5. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1] - dropdown user container
+6. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1]/app-small-user-profile/div/div[1]/img - profile image
+7. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1]/app-small-user-profile/div/div[1]/a - link and username
+8. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1]/app-small-user-profile/div/div[2]/button - follow button
