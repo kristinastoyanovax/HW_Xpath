@@ -1,8 +1,31 @@
-1. //*[@id="navbarColor01"]/form - search form
-2. //*[@id="search-bar"] - search input
-3. //*[@id="navbarColor01"]/form/i - search icon
-4. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div -  search dropdown container
-5. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1] - dropdown user container
-6. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1]/app-small-user-profile/div/div[1]/img - profile image
-7. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1]/app-small-user-profile/div/div[1]/a - link and username
-8. //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1]/app-small-user-profile/div/div[2]/button - follow button
+1. Search form
+Xpath : //*[@id="navbarColor01"]/form
+CSS: .search-container 
+
+2. Search input
+Xpath:  //*[@id="search-bar"]
+CSS: #search-bar
+
+3. Search icon
+Xpath: //*[@id="navbarColor01"]/form/i
+CSS: .search-container i
+
+4. Search dropdown container
+Xpath: //*[@id="navbarColor01"]/form/div/app-search-dropdown/div
+CSS: .dropdown-container
+
+5. Dropdown user container children (all users)
+Xpath:  //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div
+CSS: .dropdown-user
+
+6. Dropdown user profile image (all users)
+Xpath: //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1]/app-small-user-profile/div/div/img 
+CSS: .dropdown-user img
+
+7. Dropdown user link and username (all users)
+Xpath: //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1]/app-small-user-profile/div/div/a
+CSS: .dropdown-user a
+
+8. Dropdown user follow button (all users)
+Xpath: //*[@id="navbarColor01"]/form/div/app-search-dropdown/div/div[1]/app-small-user-profile/div/div/button
+CSS: .dropdown-user button
